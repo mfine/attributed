@@ -82,7 +82,7 @@ module Attributed
           yield entry.to_h
           since = entry.txid_snapshot_xmin
         end
-        yield nil
+#        yield nil
         sleep 1
       end
     end
